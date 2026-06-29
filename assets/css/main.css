@@ -51,8 +51,7 @@ h1, h2, h3, h4 { font-family: var(--font-serif); font-weight: 400; line-height: 
   width: 100%; max-width: var(--max-w); margin-inline: auto; padding-inline: var(--gutter);
 }
 .nav__logo { line-height: 0; }
-.nav__logo img { height: 44px; width: auto; transition: filter var(--t); filter: drop-shadow(0 1px 3px rgba(255,255,255,0.7)) drop-shadow(0 0 8px rgba(255,255,255,0.4)); }
-.nav.scrolled .nav__logo img { filter: none; }
+.nav__logo img { height: 44px; width: auto; }
 .nav__links { display: flex; align-items: center; gap: 32px; }
 .nav__links a {
   font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase;
