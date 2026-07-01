@@ -126,7 +126,11 @@
         <h3 style="font-size:22px;margin-bottom:8px;">Send an enquiry</h3>
         <p style="font-size:14px;color:var(--warm-gray);margin-bottom:32px;">Tell us about your day and Bernard will be in touch shortly.</p>
 
-        <form class="contact-form" action="#" method="POST" novalidate>
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="c68bd9d9-3bba-4baf-b7d7-b789c8f4eb4c">
+          <input type="hidden" name="subject" value="New wedding enquiry from epicweddingent.com.au">
+          <input type="hidden" name="from_name" value="Epic Wedding Entertainment Website">
+          <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
           <div class="form-grid">
             <div class="form-col">
               <label class="form-lbl" for="fname">First name <span aria-hidden="true" style="color:var(--gold)">*</span></label>
