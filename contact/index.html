@@ -109,12 +109,15 @@
           </div>
         </div>
 
-        <div style="margin-top:40px;padding:24px;background:var(--ivory-dark);border-left:3px solid var(--gold);">
-          <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
-            <span style="font-size:16px;color:var(--gold);">★★★★★</span>
-            <span style="font-size:12px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:var(--warm-gray);">5-Star Supplier</span>
+        <div style="margin-top:40px;display:flex;align-items:center;gap:20px;">
+          <img src="../assets/images/easy-weddings-2025.png" alt="Easy Weddings Five Star Award 2025" style="width:90px;height:auto;flex-shrink:0;">
+          <div>
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px;">
+              <span style="font-size:15px;color:var(--gold);">★★★★★</span>
+              <span style="font-size:12px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:var(--warm-gray);">5-Star Supplier</span>
+            </div>
+            <p style="font-size:13px;color:var(--warm-gray);line-height:1.6;">Easy Weddings Award winner 2024 &amp; 2025. 5.0 stars from 16 verified reviews.</p>
           </div>
-          <p style="font-size:14px;color:var(--warm-gray);line-height:1.65;">EasyWeddings Award winner 2024 &amp; 2025. 5.0 stars from 16 verified reviews.</p>
         </div>
       </div>
 
@@ -142,16 +145,16 @@
               <input class="form-input" type="tel" id="mobile" name="mobile" required autocomplete="tel" placeholder="0412 345 678">
             </div>
             <div class="form-col form-col--full">
-              <label class="form-lbl" for="venue">Venue name &amp; location</label>
-              <input class="form-input" type="text" id="venue" name="venue" placeholder="e.g. Leonda by the Yarra, Hawthorn">
+              <label class="form-lbl" for="venue">Venue name &amp; location <span aria-hidden="true" style="color:var(--gold)">*</span></label>
+              <input class="form-input" type="text" id="venue" name="venue" required placeholder="e.g. Leonda by the Yarra, Hawthorn">
             </div>
             <div class="form-col">
               <label class="form-lbl" for="date">Wedding date <span aria-hidden="true" style="color:var(--gold)">*</span></label>
               <input class="form-input" type="date" id="date" name="event_date" required>
             </div>
             <div class="form-col">
-              <label class="form-lbl" for="package">Package interest</label>
-              <select class="form-select" id="package" name="package">
+              <label class="form-lbl" for="package">Package interest <span aria-hidden="true" style="color:var(--gold)">*</span></label>
+              <select class="form-select" id="package" name="package" required>
                 <option value="">— Select a package —</option>
                 <option value="essential">The Essential Party</option>
                 <option value="signature">The Signature Production</option>
@@ -160,8 +163,8 @@
               </select>
             </div>
             <div class="form-col form-col--full">
-              <label class="form-lbl" for="guests">Estimated guest count</label>
-              <select class="form-select" id="guests" name="guests">
+              <label class="form-lbl" for="guests">Estimated guest count <span aria-hidden="true" style="color:var(--gold)">*</span></label>
+              <select class="form-select" id="guests" name="guests" required>
                 <option value="">— Select range —</option>
                 <option value="under50">Under 50</option>
                 <option value="50-100">50 – 100</option>
@@ -177,8 +180,8 @@
               </label>
             </div>
             <div class="form-col form-col--full">
-              <label class="form-lbl" for="message">Tell us about your day</label>
-              <textarea class="form-textarea" id="message" name="message" placeholder="Music style, vibe you're going for, anything we should know..."></textarea>
+              <label class="form-lbl" for="message">Tell us about your day <span aria-hidden="true" style="color:var(--gold)">*</span></label>
+              <textarea class="form-textarea" id="message" name="message" required placeholder="Music style, vibe you're going for, anything we should know..."></textarea>
             </div>
             <div class="form-col form-col--full form-submit">
               <button type="submit" class="btn btn-gold" style="width:100%;justify-content:center;padding:16px 32px;font-size:13px;">
